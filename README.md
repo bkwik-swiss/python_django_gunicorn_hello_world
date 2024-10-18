@@ -7,7 +7,7 @@
 git reset --hard
 
 git add .
-git commit -m 'Procfile Updated again'
+git commit -m 'Just update'
 git push origin main
 
 
