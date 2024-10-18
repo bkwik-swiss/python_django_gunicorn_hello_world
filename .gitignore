@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.pyd
+__pycache__/
+
+# Log files
+*.log
+
+# SQLite database files
+db.sqlite3
+*.sqlite3
+
+# Django stuff:
+staticfiles/
+media/
+
+# Environment files
+.env
+env.json
+
+# Virtual environment
+venv/
+env/
+
+# IDE and editor-specific files
+.idea/
+
+# Migration files (track .py files, ignore compiled cache)
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Test output
+junit-*.xml
+coverage.xml
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+
+.history/
+FAISEL.md.DS_Store
+FAISEL.md
+
+
+# But include these directories and files
+!.ebextensions/
+!.platform/
+!apps/
+!reklama/
+!manage.py
+!requirements.txt
+!Procfile
+!settings.py
