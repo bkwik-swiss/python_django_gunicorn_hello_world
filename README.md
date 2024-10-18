@@ -7,7 +7,7 @@
 git reset --hard
 
 git add .
-git commit -m 'buildspec.yml added'
+git commit -m 'Procfile Updated'
 git push origin main
 
 

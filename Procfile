@@ -1,4 +1,1 @@
-web: gunicorn --workers 3 hello_world_project.wsgi:application
-
-
-
+web: gunicorn hello_world_project.wsgi:application --bind 0.0.0.0:$PORT
