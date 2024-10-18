@@ -7,7 +7,7 @@
 git reset --hard
 
 git add .
-git commit -m 'Initial Update'
+git commit -m 'buildspec.yml added'
 git push origin main
 
 
